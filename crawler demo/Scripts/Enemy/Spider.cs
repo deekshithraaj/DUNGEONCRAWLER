@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Spider : Enemy,IDamageable
 {
-    // Start is called before the first frame update
+   
    public int Health { get; set; }
    public GameObject acideffectPrefab;
 
@@ -34,7 +34,7 @@ public class Spider : Enemy,IDamageable
     }
     public override void Movement()
     {
-     //sit still 
+    
     
     }
     public void Attack()

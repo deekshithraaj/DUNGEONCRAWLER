@@ -37,7 +37,7 @@ public class shop_script : MonoBehaviour
 
     public void SelectItem(int item)
     {
-        //0=flame sword,1-boots,2-key to castle 
+        // set 0=flame sword,1-boots,2-key to castle 
         Debug.Log("SelectItem()" +item);
 
         switch (item)

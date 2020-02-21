@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Acid_effect : MonoBehaviour
 {
-    // Start is called before the first frame update
-
+    
 
 
     public void Start()
@@ -14,7 +13,7 @@ public class Acid_effect : MonoBehaviour
     }
     private void Update()
     {
-        // moveright 3m/s
+        // move right 3m/s
         //deal with hit collision
         //destroy this after 5 secs
 

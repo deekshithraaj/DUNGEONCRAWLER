@@ -60,8 +60,6 @@ public class UImanager : MonoBehaviour
             }
             //hide these #health bars
         }
-        //loop throough lives 
-        //i ==lives remianing
-        //array hide that bars
+        
     }
 }

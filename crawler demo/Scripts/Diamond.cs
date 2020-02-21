@@ -11,12 +11,12 @@ public class Diamond : MonoBehaviour
         if (other.tag == "Player")
         {
             Player player = other.GetComponent<Player>();
-            // Debug.Log("im here"); 
+            
             if(player != null)
             {
                 player.AddGems(gems);
                 
-                Debug.Log("diamond collected");
+                
                 Destroy(this.gameObject);
             }
             

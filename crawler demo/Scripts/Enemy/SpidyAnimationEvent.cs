@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class SpidyAnimationEvent : MonoBehaviour
 {
-    // Start is called before the first frame update
-
 
     private Spider _spider;
 
@@ -15,9 +13,7 @@ public class SpidyAnimationEvent : MonoBehaviour
     }
     public void Fire()
     {
-        //tell spider to fire
-        //Debug.Log("Spider should fire");
-        //use handle to attack method on spider
+       
         _spider.Attack();
     }
 }

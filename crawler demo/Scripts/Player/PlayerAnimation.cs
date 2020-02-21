@@ -7,14 +7,14 @@ public class PlayerAnimation : MonoBehaviour
 
     private Animator _anim;
     private Animator _SwordAnimation;
-    // Start is called before the first frame update
+   
     void Start()
     {
         _anim = GetComponentInChildren < Animator>();
         _SwordAnimation = transform.GetChild(1).GetComponent<Animator>();
     }
 
-    // Update is called once per frame
+   
     public void Move(float move)
     {
         _anim.SetFloat("Move", Mathf.Abs(move)); 

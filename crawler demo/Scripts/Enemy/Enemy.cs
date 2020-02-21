@@ -4,8 +4,7 @@ using UnityEngine;
 
 public abstract class Enemy : MonoBehaviour
 {
-    // Start is called before the first frame update
-
+   
     public GameObject DiamondPrefab; 
     [SerializeField]
     protected int health;
@@ -81,8 +80,7 @@ public abstract class Enemy : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, currentTarget, speed * Time.deltaTime);
         }
 
-        //same till here 2!!!
-
+        
 
         float distance = Vector3.Distance(transform.localPosition, player.transform.localPosition);
 
@@ -91,7 +89,7 @@ public abstract class Enemy : MonoBehaviour
             isHit = false;
             _Eanim.SetBool("InCombat", false);
         }
-        //checked
+       
 
         Vector3 direction = player.transform.localPosition - transform.localPosition;
 

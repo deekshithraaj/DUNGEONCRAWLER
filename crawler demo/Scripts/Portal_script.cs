@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Portal_script : MonoBehaviour
 {
-    // Start is called before the first frame update
+   
 
     public Vector2 _portalSpawn;
 
@@ -17,18 +17,5 @@ public class Portal_script : MonoBehaviour
             collision.gameObject.transform.position = _portalSpawn;
         }
     }
-   void Start()
-    {
-        
-         
-        
-         
-     
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

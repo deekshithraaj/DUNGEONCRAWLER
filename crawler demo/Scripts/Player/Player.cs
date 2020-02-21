@@ -5,7 +5,7 @@ using UnityStandardAssets.CrossPlatformInput;
 
 public class Player : MonoBehaviour,IDamageable
 {
-    // Start is called before the first frame update
+    
     public int diamonds;
 
 
@@ -139,17 +139,14 @@ public class Player : MonoBehaviour,IDamageable
             return;
         }
 
-        Debug.Log("Player :: damage() called");
-        //Ui display
+        
         Health--;
         UImanager.Instance.UpdateLives(Health);
         if (Health <1)
         {
             _PlayerAnim.Death();
         }
-        // check for dead and play dead animation
-        
-
+      
     }
 
   

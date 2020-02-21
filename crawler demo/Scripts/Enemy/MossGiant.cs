@@ -23,8 +23,7 @@ public class MossGiant : Enemy, IDamageable
     {
         if (isDead == true)
             return;
-        //Debug.Log(" Moss giantDamage!");
-
+       
         Health--;
         _Eanim.SetTrigger("Hit");
         isHit = true;

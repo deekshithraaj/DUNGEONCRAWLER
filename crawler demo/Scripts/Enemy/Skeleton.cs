@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Skeleton : Enemy, IDamageable
 {
-    // Start is called before the first frame update
+  
     public int Health { get; set; }
 
    
@@ -24,7 +24,7 @@ public class Skeleton : Enemy, IDamageable
     {
         if (isDead == true)
             return;
-        //Debug.Log("Skeleton Damage!");
+      
 
         Health--;
         _Eanim.SetTrigger("Hit");
